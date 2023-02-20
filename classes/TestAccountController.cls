@@ -12,7 +12,7 @@ public class TestAccountController {
 
     @isTest
     static void getAccountList() {
-        TestAccountController.createAccounts(10);
+        TestAccountController.createAccounts(20);
 
         Test.startTest();
         List<Account> accts = AccountController.getAccountList();
